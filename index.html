@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="color-scheme" content="light dark">
+	<meta name="supported-color-schemes" content="light dark">
+
+	<title>HTML EMAIL - Food Delivery Service</title>
+
+	<style type="text/css">
+		/* GOOGLE FONTS */
+		@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+		* {
+			font-family: 'Montserrat', sans-serif;
+			box-sizing: border-box;
+		}
+
+		td[class="menu-title"]:hover {
+			text-decoration: underline;
+		}
+
+		img[class="scale-img"]:hover {
+			transform: scale(1.025,1.025);
+			opacity: 0.8;
+		}
+
+		/* MEDIA QUERRIES */
+		@media screen and (max-width: 600px) {
+
+			a[class="coupon-button"] {
+				font-size: 2vw !important;
+				padding: 1vw !important;
+			}
+
+			td[class="menu-nav"] {
+				font-size: 8vw !important;
+			}
+
+			td[class="menu-header"] {
+				font-size: 8vw !important;
+				padding: 10px !important;
+			}
+
+			td[class="product-section"] {
+				width: 100% !important;
+				display: block !important;
+				text-align: center !important;
+				padding: 8px 0;
+			}
+
+			td[class="product-section"] img {
+				max-width: 60% !important;
+				height: auto !important;
+			}
+
+		}
+
+		@media screen and (max-width: 450px) {
+
+			table[class="footer-links"] {
+				padding: 16px !important;
+				padding: 1rem !important;
+			}
+
+			td[class="footer-link"] a {
+				font-size: 70% !important;
+			}
+
+			td[class="legal-heading"] {
+				font-size: 16px !important;
+				font-size: 1rem !important;
+			}
+
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<!-- // FULL EMAIL CONTAINER -->
+	<table width="100%" cellspacing="0" cellpadding="0" border="0" >
+		
+		<tr>
+
+			<!-- // LEFT SPACER CELL *** MUST HAVE A BACKGROUND COLOUR -->
+			<td bgcolor="#FFFFFF" style="font-size:0px">&zwnj;</td>
+			<!-- LEFT SPACER CELL // -->
+	
+
+
+			<!-- // MAIN CONTENT CELL -->
+			<td align="center" width="600" bgcolor="#FFFFFF">
+	
+				<table width="100%" cellspacing="0" cellpadding="0" border="0" style="padding-top: 1rem;">
+					
+					<tbody class="mobilefullwidth">
+						
+						<!-- // PREVHEADER/ PREVIEW TEXT -->
+						<div style="display: none; max-height: 0px; overflow: hidden;">
+							This is a test to check if it works!
+						</div>
+						<!-- PREVHEADER/ PREVIEW TEXT // -->
+							
+						<!-- // SPACE HACK AFTER PREVIEW TEXT -->
+						<div style="display: none; max-height: 0px; overflow: hidden;">
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+							&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;
+						</div>
+						<!-- SPACE HACK AFTER PREVIEW TEXT // -->
+
+
+
+						<!-- START OF EMAIL CONTENT -->
+
+
+							<!-- // VIEW IN BROWSER TEXT -->
+							<tr>
+								<td align="center" width="100%" style="font-size: 14px; color: #555555;">
+									Is this email not showing correctly? <a href="#" target="_blank" style="color: #FE8301;">View in the browser</a>
+								</td>
+							</tr>
+							<!-- VIEW IN BROWSER TEXT // -->
+
+							<!-- // LOGO -->
+							<tr>
+								<td align="center" width="100%" style="font-size: 5rem; font-weight: 800; color: #555555; padding-top: 40px;padding-top: 3rem;">
+									LOGO
+								</td>
+							</tr>
+							<!-- LOGO // -->
+
+							<!-- // HERO IMAGE -->
+							<tr>
+								<td width="100%">
+									<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a67fb008979b0d4e7578a_photo-1604382355076-af4b0eb60143.jpg" alt="hero image of a delicious pizza" style="width: 100%; height: auto;">
+								</td>
+							</tr>
+							<!-- HERO IMAGE // -->
+
+							<!-- // GIF OFFER AND CTA -->
+							<tr>
+								<td align="center" width="100%" style="padding-top: 16px; padding-top: 1rem; padding-bottom: 16px; padding-bottom: 1rem;">									
+
+									<!-- MAIN GIF (BACKGROUND OFFER GIF) -->
+									<table width="100%" cellspacing="0" cellpadding="0" border="0" style="background-image: url('https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a67ecdb053179444382b3_neon%20text.gif'); background-repeat: no-repeat; background-size: contain; background-position: center;">
+										<tr>
+											<!-- TOP GAP -->
+											<td style="display: block; padding-top: 60%; background-image: url('https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a67ecdb053179444382b3_neon%20text.gif'); background-size: cover; min-width: 100%;"></td>
+											
+											<!-- CTA BUTTON -->
+											<td width="100%;" style="display: block;" align="center">
+												<a href="#" target="_blank">
+													<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a67f0caaee18c19de85a1_button.gif" alt="find your store button" style="width: 50%; height: auto;">
+												</a>
+											</td>
+
+											<!-- BOTTOM GAP -->
+											<td style="display: block; padding-top: 30%; background-image: url('https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a67ecdb053179444382b3_neon%20text.gif'); background-position: bottom; background-size: cover; min-width: 100%;"></td>
+										</tr>
+									</table>
+
+								</td>
+							</tr>
+							<!-- GIF OFFER AND CTA // -->
+
+							<!-- // COUPON -->
+
+							<tr>
+								<td align="center" width="100%" style="padding-bottom: 16px; padding-bottom: 1rem;">									
+
+									<a href="#" target="_blank">
+										<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604b56737577232a20e9ae1e_coupon.png" alt="" style="width: 100%;">
+									</a>
+
+								</td>
+							</tr>
+
+							<!-- COUPON // -->
+
+							<!-- // SPECIALITY PIZZAS -->
+
+							<tr>
+								<td align="left" width="100%" style="padding-top: 32px; padding-top: 2rem; padding-bottom: 32px; padding-bottom: 2rem;">
+
+									<!-- // NAV MENU -->
+									<table style="width: 100%; padding-bottom: 8px; padding-bottom: 0.5rem;">
+										<tr>
+
+											<!-- MENU -->
+											<td class="menu-nav" align="left" style="font-size: 40px; font-size: 2.5rem; font-weight: 700; width: 30%;">
+												<a href="#" target="_blank" style="text-decoration: none;  color: #4E4E4E;">MENU</a>
+											</td>
+
+											<!-- DEALS -->
+											<td class="menu-nav" align="left" style="font-size: 40px; font-size: 2.5rem; font-weight: 700; width: 70%; padding-left: 1rem;">
+												<a href="#" target="_blank" style="text-decoration: none;  color: #4E4E4E;">DEALS</a>
+											</td>
+											
+										</tr>
+									</table>
+									<!-- NAV MENU // -->
+
+									<!-- // PIZZA MENU -->
+									<table align="center" width="100%" cellspacing="0" cellpadding="0" border="0" style="background-image: url('https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a6806701b3b1556b3b971_brick%20wall.jpg');">
+										<tr>
+
+											<!-- HEADER // -->
+											<td class="menu-header" align="center" width="100%" style="font-size: 40px; font-size: 2.5rem; font-weight: 600; color: #FFFFFf; padding-top: 48px; padding-top: 3rem; padding-bottom: 48px; padding-bottom: 3rem; display: block;">
+												SPECIALITY PIZZAS
+											</td>
+											<!-- // HEADER -->
+
+											<!-- // PRODUCT 1 -->
+											<td align="center" width="100%" style=" display: block; padding: 16px 0; padding: 1rem 0; ">
+
+												<table width="90%" cellspacing="0" cellpadding="0" border="0" style="background-color: rgba(0, 0, 0, 0.5); padding: 16px 0; padding: 1rem 0;">
+													<tr>
+														<!-- IMAGE -->
+														<td align="left" width="35%" class="product-section" style="padding-left: 32px; padding-left: 2rem; padding-right: 16px; padding-right: 1rem;">
+															<a href="#" target="_blank" >
+																<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a6802082f2ccdaaab3fd1_1907-PIZ-Texas-BBQ.jpg" alt="product 1" class="scale-img" style="width: 100%; height: auto; box-shadow: -5px 10px 10px 2.5px #000000;">
+															</a>
+														</td>
+
+														<!-- TEXT -->
+														<td align="right" width="65%" class="product-section" style="padding-right: 32px; padding-right: 2rem; padding-left: 16px; padding-left: 1rem;">
+															<table width="100%" cellspacing="0" cellpadding="10%" border="0">
+
+																<!-- TITLE -->
+																<tr>
+																	<td class="menu-title product-section" width="100%" style="font-size: 200%; font-weight: 500;">
+																		<a href="#" target="_blank" target="_blank" style="text-decoration: none; color: #FFFFFF;">
+																			Product 1
+																		</a>
+																	</td>
+																</tr>
+
+																<!-- DESCRIPTION -->
+																<tr>
+																	<td align="left" width="100%" class="product-section" style="color: #FFFFFF;">
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto obcaecati dolore tenetur iure optio quae harum quisquam.
+																	</td>
+																</tr>
+
+															</table>
+														</td>
+													</tr>
+												</table>
+
+											</td>
+											<!-- PRODUCT 1 // -->
+
+											<!-- // PRODUCT 2 -->
+											<td align="center" width="100%" style=" display: block; padding: 16px 0; padding: 1rem 0; ">
+
+												<table width="90%" cellspacing="0" cellpadding="0" border="0" style="background-color: rgba(0, 0, 0, 0.5); padding: 16px 0; padding: 1rem 0;">
+													<tr>
+														<!-- IMAGE -->
+														<td align="left" width="35%" class="product-section" style="padding-left: 32px; padding-left: 2rem; padding-right: 16px; padding-right: 1rem;">
+															<a href="#" target="_blank" >
+																<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a68022f9a4c277bb84d93_1907-PIZ-Cheese-and-Tomato.jpg" alt="product 2" class="scale-img" style="width: 100%; height: auto; box-shadow: -5px 10px 10px 2.5px #000000;">
+															</a>
+														</td>
+
+														<!-- TEXT -->
+														<td align="right" width="65%" class="product-section" style="padding-right: 32px; padding-right: 2rem; padding-left: 16px; padding-left: 1rem;">
+															<table width="100%" cellspacing="0" cellpadding="10%" border="0">
+
+																<!-- TITLE -->
+																<tr>
+																	<td width="100%" class="menu-title product-section" style="font-size: 200%; font-weight: 500;">
+																		<a href="#" target="_blank" style="text-decoration: none; color: #FFFFFF;">
+																			Product 2
+																		</a>
+																	</td>
+																</tr>
+
+																<!-- DESCRIPTION -->
+																<tr>
+																	<td align="left" class="product-section" width="100%" style="color: #FFFFFF;">
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto obcaecati dolore tenetur iure optio quae harum quisquam.
+																	</td>
+																</tr>
+
+															</table>
+														</td>
+													</tr>
+												</table>
+
+											</td>
+											<!-- PRODUCT 2 // -->
+
+											<!-- // PRODUCT 3 -->
+											<td align="center" width="100%" style=" display: block; padding: 16px 0; padding: 1rem 0; ">
+
+												<table width="90%" cellspacing="0" cellpadding="0" border="0" style="background-color: rgba(0, 0, 0, 0.5); padding: 16px 0; padding: 1rem 0;">
+													<tr>
+														<!-- IMAGE -->
+														<td align="left" width="35%" class="product-section" style="padding-left: 32px; padding-left: 2rem; padding-right: 16px; padding-right: 1rem;">
+															<a href="#" target="_blank" >
+																<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a6802db0531542f4382be_2101-PIZ-Absolute-Banger.jpg" alt="product 3" class="scale-img" style="width: 100%; height: auto; box-shadow: -5px 10px 10px 2.5px #000000;">
+															</a>
+														</td>
+
+														<!-- TEXT -->
+														<td align="right" width="65%" class="product-section" style="padding-right: 32px; padding-right: 2rem; padding-left: 16px; padding-left: 1rem;">
+															<table width="100%" cellspacing="0" cellpadding="10%" border="0">
+
+																<!-- TITLE -->
+																<tr>
+																	<td class="menu-title product-section" width="100%" style="font-size: 200%; font-weight: 500;">
+																		<a href="#" target="_blank" style="text-decoration: none; color: #FFFFFF;">
+																			Product 3
+																		</a>
+																	</td>
+																</tr>
+
+																<!-- DESCRIPTION -->
+																<tr>
+																	<td align="left" width="100%" class="product-section" style="color: #FFFFFF;">
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto obcaecati dolore tenetur iure optio quae harum quisquam.
+																	</td>
+																</tr>
+
+															</table>
+														</td>
+													</tr>
+												</table>
+
+											</td>
+											<!-- PRODUCT 3 // -->
+
+											<!-- // PRODUCT 4 -->
+											<td align="center" width="100%" style=" display: block; padding: 16px 0; padding: 1rem 0; ">
+
+												<table width="90%" cellspacing="0" cellpadding="0" border="0" style="background-color: rgba(0, 0, 0, 0.5); padding: 16px 0; padding: 1rem 0;">
+													<tr>
+														<!-- IMAGE -->
+														<td align="left" width="35%" class="product-section" style="padding-left: 32px; padding-left: 2rem; padding-right: 16px; padding-right: 1rem;">
+															<a href="#" target="_blank" >
+																<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604a6802820c741659b76df7_1907-PIZ-Pepperoni-Passion.jpg" alt="product 4" class="scale-img" style="width: 100%; height: auto; box-shadow: -5px 10px 10px 2.5px #000000;">
+															</a>
+														</td>
+
+														<!-- TEXT -->
+														<td align="right" width="65%" class="product-section" style="padding-right: 32px; padding-right: 2rem; padding-left: 16px; padding-left: 1rem;">
+															<table width="100%" cellspacing="0" cellpadding="10%" border="0">
+
+																<!-- TITLE -->
+																<tr>
+																	<td class="menu-title product-section" width="100%" style="font-size: 200%; font-weight: 500;">
+																		<a href="#" target="_blank" style="text-decoration: none; color: #FFFFFF;">
+																			Product 4
+																		</a>
+																	</td>
+																</tr>
+
+																<!-- DESCRIPTION -->
+																<tr>
+																	<td align="left" width="100%" class="product-section" style="color: #FFFFFF;">
+																		Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis architecto obcaecati dolore tenetur iure optio quae harum quisquam.
+																	</td>
+																</tr>
+
+															</table>
+														</td>
+													</tr>
+												</table>
+
+											</td>
+											<!-- PRODUCT 4 // -->
+
+										</tr>
+									</table>
+									<!-- PIZZA MENU // -->
+
+								</td>
+							</tr>
+
+							<!-- SPECIALITY PIZZAS // -->
+
+
+							<!-- // SOCIAL AND LEGAL STUFF -->
+
+							<tr>
+								<td width="100%;" align="center" style="padding: 48px 0; padding: 3rem 0; background-color: #FE8100;">
+
+									<!-- // SOCIAL MEDIA LINKS -->
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding: 16px 0; padding: 1rem 0;">
+										<tr>
+
+											<!-- FACEBOOK -->
+											<td align="center" width="33%">
+												<a href="#" target="_blank" >
+													<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604bab52b96bd2aaf42210a8_facebook.png" alt="facebook icon social media" style="width: 30%; height: auto;">
+												</a>
+											</td>
+
+											<!-- INSTAGRAM -->
+											<td align="center" width="33%">
+												<a href="#" target="_blank" >
+													<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604bab539e56a0a8f9aeef0c_instagram.png" alt="instagram icon social media" style="width: 30%; height: auto;">
+												</a>
+
+											<!-- TWITTER -->
+											<td align="center" width="33%">
+												<a href="#" target="_blank" >
+													<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604bab53aed5e23e4326c9ff_twitter.png" alt="twitter icon social media" style="width: 30%; height: auto;">
+												</a>
+											</td>
+										</tr>
+									</table>
+									<!-- SOCIAL MEDIA LINKS // -->
+
+									<!-- // CONTACT UNSUBSCRIBE TERMS AND CONDITIONS  -->
+									<table class="footer-links" border="0" cellspacing="0" cellpadding="0" width="100%" style="padding: 48px; padding: 3rem;">
+										<tr>
+											
+											<!-- Contact -->
+											<td width="30%;" align="center" class="footer-link">
+												<a href="#" target="_blank" style="font-size: 100%; color: #FFFFFF;">
+													Contact Us
+												</a>
+											</td>
+											<td width="5%" align="left" style="color: #FFFFFF;">
+												|
+											</td>
+											<!-- Terms and Conditions -->
+											<td width="30%;" align="center" class="footer-link">
+												<a href="#" target="_blank" style="font-size: 100%; color: #FFFFFF;">
+													Terms and Conditions
+												</a>
+											</td>
+											<td width="5%" align="right" style="color: #FFFFFF;">
+												|
+											</td>
+											<!-- Unsubscribe -->
+											<td width="30%;" align="center" class="footer-link">
+												<a href="#" target="_blank" style="font-size: 100%; color: #FFFFFF;">
+													Unsubscribe
+												</a>
+											</td>
+											
+
+										</tr>
+									</table>
+									<!-- CONTACT UNSUBSCRIBE TERMS AND CONDITIONS // -->
+
+									<!-- // LEGAL HEADING -->
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" style="padding: 16px; padding: 1rem;">
+										<tr>
+											<td width="30%;">
+												<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604ba6fbc076e60bdf8ac443_line.png" alt="line" style="width: 100%; height: auto;">
+											</td>
+											<td align="center" class="legal-heading" style="width: 40%; font-size: 20px; font-size: 1.25rem; font-weight: 600; color: #FFFFFF;">
+												LEGAL STUFF
+											</td>
+											<td width="30%">
+												<img src="https://uploads-ssl.webflow.com/6044d60d68e4a6971d46f193/604ba6fbc076e60bdf8ac443_line.png" alt="line" style="width: 100%; height: auto;">
+											</td>
+										</tr>
+									</table>
+									<!-- LEGAL HEADING // -->
+
+									<!-- // LEGAL BODY -->
+									<table border="0" cellspacing="0" cellpadding="0" width="100%" style=" padding: 16px 48px; padding: 1rem 3rem">
+
+										<!-- Legal Stuff -->
+										<tr>
+											<td style="font-family: 'Roboto', sans-serif; font-size: 14px; line-height: 20px; text-align: center; color: #FFFFFF;;">
+												Copyright © 2021 {Company name}, All Rights Reserved. </br>
+												This email was sent to <a href="#" target="_blank">example@email.com</a>.</br>
+												Got a question? Call us on 012 3456 7899 or get in touch at company@name.com
+												{Company name} Ltd. PO Box 12345, CITY, AB12 3CD.
+
+											</td>
+										</tr>
+									</table>
+									<!-- LEGAL BODY // -->
+
+								</td>
+							</tr>
+
+							<!-- SOCIAL AND LEGAL STUFF // -->
+
+						<!-- END OF EMAIL CONTENT -->
+
+
+
+					</tbody>
+
+				</table>
+
+			</td>
+			<!-- MAIN CONTENT // -->
+
+
+
+			<!-- // RIGHT SPACER CELL *** MUST HAVE A BACKGROUND COLOUR -->
+			<td bgcolor="#FFFFFF" style="font-size:0px">&zwnj;</td>
+			<!-- RIGHT SPACER CELL // -->
+
+		</tr>
+
+	</table>
+	<!-- FULL EMAIL CONTAINER // -->
+
+</body>
+</html>
